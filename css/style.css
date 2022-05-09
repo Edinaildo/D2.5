@@ -1,5 +1,6 @@
-body {
+.background {
   background-color: #2e2d4c;
+  background-image: url(../img/background-foods-v4.png);
 }
 .conteudo {
   width: 75%;
@@ -44,4 +45,8 @@ body {
 }
 .fonte--media {
   font-size: 1.7rem;
+}
+.titulo {
+  font-size: 1.9rem;
+  margin-top: 50px;
 }
