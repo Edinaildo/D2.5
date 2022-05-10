@@ -60,3 +60,13 @@
 .habilidades progress {
   accent-color: #2e2d4c;
 }
+.fotos img {
+  width: 450px;
+  height: 240px;
+  border-radius: 10px;
+  filter: grayscale(0.4);
+}
+
+.fotos img:hover {
+  filter: none;
+}
