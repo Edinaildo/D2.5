@@ -1,5 +1,6 @@
 body {
   font-family: lora, serif;
+  position: absolute;
 }
 .background {
   background-color: #2e2d4c;
@@ -12,7 +13,6 @@ body {
   width: 72%;
   background-color: white;
   margin: 120px auto;
-  padding: 50px;
   border-radius: 10px;
   margin-bottom: 220px;
 }
@@ -20,12 +20,20 @@ body {
 .cabecalho {
   text-align: center;
   color: #fff;
-  margin: auto;
   padding: 30px;
+  margin: 40%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
-
+.imgprato {
+  text-align: center;
+}
+.logo {
+  text-align: center;
+}
 .logo img {
   width: 220px;
+  margin-top: 150px;
 }
 .navigation li {
   display: inline-block;
@@ -54,10 +62,15 @@ body {
 }
 .fonte--media {
   font-size: 1.7rem;
+  padding-left: 20px;
+}
+ul {
+  padding-left: 50px;
 }
 .titulo {
   font-size: 1.9rem;
   margin-top: 50px;
+  padding-left: 20px;
 }
 .titulo--fonte {
   font-family: "Exo 2", sans-serif;
