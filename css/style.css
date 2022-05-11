@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: lora, serif;
   position: absolute;
@@ -21,7 +25,6 @@ body {
   text-align: center;
   color: #fff;
   padding: 30px;
-  margin: 40%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -144,6 +147,9 @@ ul {
   margin-top: -50px;
   transform: translateX(50%) rotate(45deg);
 }
+.iconfooter {
+  color: #fff;
+}
 
 @media (max-width: 720px) {
   body {
@@ -161,7 +167,7 @@ ul {
     font-size: 2.4rem;
   }
   .fonte--media {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .fonte--pequena {
     font-size: 1.1rem;
