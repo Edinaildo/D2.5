@@ -15,10 +15,18 @@ body {
 .conteudo {
   line-height: 3rem;
   width: 72%;
-  background-color: white;
-  margin: 120px auto;
-  border-radius: 10px;
-  margin-bottom: 100px;
+  max-width: 940px;
+  color: #4d3c64;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 220px;
+  padding: 60px;
+  box-shadow: -10px 8px 30px #312f2f;
+  z-index: 2;
+}
+.subtitle--color {
+  color: #c0bcc9;
 }
 
 .cabecalho {
@@ -188,6 +196,14 @@ ul {
   .fonte--pequena {
     font-size: 1.1rem;
   }
+  .conteudo {
+    line-height: 3rem;
+    width: 90%;
+    background-color: white;
+    margin: 120px auto;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
   .navigation li {
     width: 95px;
     font-size: 0.9rem;
@@ -201,10 +217,8 @@ ul {
   }
   .titulo {
     font-size: 1.2rem;
-    margin-left: 20px;
   }
   .titulo--fonte {
     font-family: "Exo 2", sans-serif;
-    margin-left: 20px;
   }
 }
