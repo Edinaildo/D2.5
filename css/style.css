@@ -44,7 +44,8 @@ body {
   margin-top: 150px;
 }
 .logo img {
-  width: 220px;
+  width: 180px;
+  margin-bottom: 20px;
 }
 
 .pa2 {
@@ -62,6 +63,9 @@ body {
 
 .pr4 {
   padding-right: 12px;
+}
+.navigation {
+  margin-bottom: 50px;
 }
 .navigation li {
   display: inline-block;
@@ -83,9 +87,8 @@ body {
   text-decoration: underline;
 }
 .avatar {
-  float: left;
   width: 140px;
-  padding: 20px;
+  float: left;
   margin-right: 20px;
 }
 .fonte--grande {
