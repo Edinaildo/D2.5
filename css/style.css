@@ -15,7 +15,6 @@ body {
 .conteudo {
   line-height: 3rem;
   width: 72%;
-  max-width: 940px;
   color: #4d3c64;
   border-radius: 0.5rem;
   background-color: #fff;
@@ -201,15 +200,16 @@ ul {
   }
   .conteudo {
     line-height: 3rem;
-    width: 90%;
+    width: 70%;
     background-color: white;
     margin: 120px auto;
     border-radius: 10px;
     margin-bottom: 100px;
   }
   .navigation li {
-    width: 95px;
-    font-size: 0.9rem;
+    width: 90px;
+    font-size: 0.8rem;
+    text-align: center;
   }
   .avatar {
     width: 110px;
